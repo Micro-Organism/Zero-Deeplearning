@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: zero-deeplearning-deeplearning4j
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 1024MB
+predict:
+    imagefilepath: images/
+    modelpath: minist-model.zip
